@@ -1,0 +1,96 @@
+body, html{
+	width:100%;
+	position:relative;
+}
+//video
+.fullscreen-bg {
+    position: fixed;
+    width:100%;
+    height:100vh;
+    z-index: -10;	
+}
+video{
+	object-fit:fill;
+	height:100vh;
+	width:100vw;
+}
+
+.wrap{
+	height:100%;
+}
+header{
+}
+.logo{
+	position:fixed;
+	left:100px;
+	background-color: rgba(255,255,255,0.1);
+	padding:0px 50px;
+	padding-top:100px;
+	z-index:1;
+	color:white;
+}
+nav{
+	position:fixed;
+	right:0;
+	top:0;
+}
+nav ul{
+	display:flex;
+}
+nav li{
+	list-style:none;
+	padding:10px;
+	padding-right:40px;
+}
+nav li a{
+	text-decoration: none;
+	color:white;
+}
+.right-nav-bar{
+	position:fixed;
+	top:45%;
+	right:0;
+}
+.sm-list{
+	list-style:none;
+}
+.sm-list li{
+	padding:10px 0px;
+	padding-right:60px;
+	color:white;
+
+}
+section{
+	width:100%;
+	height:100%;
+background: linear-gradient(to bottom, rgba(14,46,71,0.7) 0%,rgba(14,46,71,0.61) 39%,rgba(117,136,150,0.6) 45%,rgba(255,255,255,0.7) 53%,rgba(255,255,255,0.76) 58%,rgba(255,255,255,1) 78%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.main-content{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	color:white;
+	flex-direction: column;
+	h1{
+		font-size:5em;
+	}
+}
+.subscribe-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color:#0E2E47;
+}
+.subscribe{
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+	p{
+		margin:0 auto;
+		width:30%;
+	}
+}
